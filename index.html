@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather API</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <input id= "search" type="text">
+    <button id="click" class ="search-button">search</button>
+    <section id="history">
+
+    </section>
+    <section id= "main" class="weather-day-containers">
+        <h2 id="city-name"></h2>
+        <p id="date"></p>
+        <img id="icon" alt="">
+        <p id="temp"></p>
+        <p id="humid"></p>
+        <p id="wind"></p>
+
+    </section>
+    <div id="5Day" class = >
+        <div class="1Day"></div>
+        <div class="2Day"></div>
+        <div class="3Day"></div>
+        <div class="4Day"></div>
+        <div class="FinalDay"></div>
+
+    </div>
+    <script
+        src="https://cdn.jsdelivr.net/npm/dayjs@1.11.3/dayjs.min.js"
+        integrity="sha256-iu/zLUB+QgISXBLCW/mcDi/rnf4m4uEDO0wauy76x7U="
+        crossorigin="anonymous"
+    ></script>
+    <script src="script.js"></script>
+</body>
+</html>
